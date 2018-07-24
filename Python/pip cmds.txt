@@ -1,0 +1,24 @@
+pip install python-language-server --proxy http://one.proxy.att.com:8080
+pip install bash_kernel --proxy http://one.proxy.att.com:8080
+pip install pypiwin32 --proxy http://one.proxy.att.com:8080
+pip install psutil --proxy http://one.proxy.att.com:8080
+pip install http --proxy http://one.proxy.att.com:8080
+
+
+npm install markdown-it --save --proxy http://one.proxy.att.com:8080
+npm install -g gulp --save --proxy http://one.proxy.att.com:8080
+npm install gulp gulp-markdown-it --proxy http://one.proxy.att.com:8080
+npm install -g highlight.js --save --proxy http://one.proxy.att.com:8080
+pip install httplib --proxy http://one.proxy.att.com:8080
+
+
+npm init
+npm install gulp --save --proxy http://one.proxy.att.com:8080
+npm install gulp-markdown-it --save --proxy http://one.proxy.att.com:8080
+npm install gulp-layout gulp-remarkable consolidate jade gulp-front-matter --save --proxy http://one.proxy.att.com:8080
+
+
+npm install highlight.js --save --proxy http://one.proxy.att.com:8080
+
+
+npm install gulp gulp-markdown-it --proxy http://one.proxy.att.com:8080
