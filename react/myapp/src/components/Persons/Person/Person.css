@@ -1,0 +1,26 @@
+.personDiv{
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(192, 197, 207);
+}
+.person{
+    color: rgb(165, 118, 0);
+    /* display: inline; */
+}
+.person:hover{
+    color: blue;
+}
+.personChildren{
+    color: rgb(194, 28, 16);
+}
+
+@media (min-width: 500px){
+    .personDiv{
+        width: 450px;
+    }
+}

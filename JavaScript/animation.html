@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div.test2 {
+border: solid 8px red;
+width: 300px;
+height: 300px;
+border-radius: 5em;
+animation: myfirst1 5s linear 2s infinite;
+}
+div.test {
+    width: 100px;
+    height: 100px;
+    border-radius: 5em;
+    background-color: red;
+    position: relative;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite  ;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes myfirst1 {
+    0%   {border-color:red;border-width: 8px;}
+    25%  {border-color:yellow; }
+    50%  {border-color:blue; }
+    75%  {border-color:green; }
+    100% {border-color:red;border-width: 2em;}
+}
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div class="test2"><div class="test"></div></div>
+
+</body>
+</html>

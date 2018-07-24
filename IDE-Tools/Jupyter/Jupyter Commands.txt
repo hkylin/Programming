@@ -1,0 +1,4 @@
+jupyter kernelspec list  ## will list installed kernel
+jupyter notebook list ## list running notebook
+jupyter notebook -h ## for help
+jupyter notebook --notebook-dir=C:\Users\ms458j\Documents\IT_Learninig\Programming\Python

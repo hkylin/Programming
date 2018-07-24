@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+.App:hover {
+  background-color: rgb(210, 240, 154);
+  border-radius: 8px;
+}
